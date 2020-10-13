@@ -49,7 +49,7 @@ video {
   z-index: 2;
   display: flex;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(185, 70, 70, 0.85);
 }
 
 .input-container {
@@ -93,7 +93,7 @@ button {
   margin-top: 15px;
   border: none;
   text-transform: uppercase;
-  background: #006959;
+  background: #0b1098;
   color: white;
   cursor: pointer;
   outline: none;
@@ -134,24 +134,24 @@ li span {
 
 @keyframes complete {
   0% {
-    color: rgb(233, 13, 13);
+    color: rgb(13, 17, 233);
   }
 
   25% {
-    color: rgb(233, 211, 13);
+    color: rgb(13, 163, 233);
   }
 
   50% {
-    color: rgb(64, 233, 13);
-    transform: scale(1.5);
+    color: rgb(46, 13, 233);
+    transform: scale(1.25);
   }
 
   75% {
-    color: rgb(0, 38, 253);
+    color: rgb(110, 0, 253);
   }
 
   100% {
-    color: rgb(194, 0, 253);
+    color: rgb(5, 11, 59);
   }
 }
 

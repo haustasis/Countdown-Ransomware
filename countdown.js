@@ -13,7 +13,7 @@ const completeBtn = document.getElementById('complete-button');
 
 let countdownTitle = '';
 let countdownDate = '';
-let countdownValue = Date;
+let countdownValue = new Date();
 let countdownActive;
 let savedCountdown;
 
@@ -44,7 +44,7 @@ function updateDOM() {
     if (distance < 0) {
       countdownEl.hidden = true;
       clearInterval(countdownActive);
-      completeElInfo.textContent = `${countdownTitle} finished on ${countdownDate}`;
+      completeElInfo.textContent = `${countdownTitle} completely activated on ${countdownDate}`;
       completeEl.hidden = false;
     } else {
       // Else, show the countdown in progress
